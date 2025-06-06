@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu principal</title>
+    <link rel="stylesheet" href="CSS/estilos_home.css">
+</head>
+<body>
+    
+    <div class="container">
+        <section class="account-status">
+            <div class="cont-primary">
+                <div class="img-logo">
+                    <img src="Assets/logo.png" class="logo" alt="logo bank">
+                </div>
+                <p class="greeting">Hola <span class="username" id="username">LuisEduardo</span>, Bienvenido/a</p>
+                <div class="img-card">
+                    <img src="Assets/tarjeta.png" class="card" alt="image credit card - debit">
+                </div>
+                <p class="text1">Cuenta en pesos</p>
+                <p class="text2">Saldo disponible</p>
+                <p class="balance">$ <span id="balance">0</span>.00 DOP</p>
+                <button class="sign-off" id="sign-off" onclick="SignOff()">Cerrar sesion</button>
+            </div>
+        </section>
+        <div class="operation">
+            <div class="cont-secondary">
+                <section class="retreat">
+                    <p>Retiro</p>
+                    <p>Digite la cantidad a retirar</p>
+                    <input type="text" placeholder="cantidad a retirar" id="withdrawal">
+                    <p class="messageWithdrawal" id="messageWithdrawal"></p>
+                    <button class="btn-withdraw" id="withdraw" onclick="withdraw()">Retirar</button>
+                </section>
+                <section class="deposit">
+                    <p>Deposito</p>
+                    <p>Digite la cantidad a depositar</p>
+                    <input type="text" placeholder="cantidad a depositar" id="deposit">
+                    <p class="deposit-message" id="deposit-message"></p>
+                    <button class="btn-to-deposit" id="to-deposit" onclick="toDeposit()">Depositar</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="JS/scripthome.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #580EEB;
+    background-image: url("../Assets/imagen_fondo.png");
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------------------- Section Login ------------------*/
+
+/*-------------logo bank and user--------------*/
+img{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/*-------------------logo bank---------------------*/
+.bank-logo{
+    width: 20%;
+    margin-top: 30px;
+}
+
+/*-------------------logo user---------------------*/
+.image-user{
+    width: 13%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* ------------- Form Input Data ------------- */
+
+.form-input-data{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------- General Icon Label Input ------------- */
+.usu, .pass{
+    color: white;
+    margin-right: 2%;
+}
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #555555;
+}
+
+input:hover{
+    border: 1.5px solid white;
+}
+
+/* ------------- Section User ------------- */
+.section-user{
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+}
+
+.label-user{
+    width: 15%;
+    text-align: right;
+    padding-top: 0.4%;
+}
+
+.user{
+    margin-right: 19%;
+}
+
+.input-email{
+    width: 21%;
+    text-align: center;
+}
+
+/* ------------- Section Password ------------- */
+.section-password{
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+}
+
+.label-password{
+    width: 15%;
+    text-align: right;
+    padding-top: 0.4%;
+}
+
+.password{
+    margin-right: 3%;
+}
+
+.input-password{
+    width: 21%;
+    text-align: center;
+}
+
+/* -------------message-------------- */
+
+.messages{
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 20%;
+    padding: 0;
+}
+
+.messages{
+    height: 10%;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    text-shadow: 0.1em 0.1em #333;
+}
+
+/* -------------button-------------- */
+
+.enter-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    font-size: 22px;
+    width: 160px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #008CBA;
+    color: white;
+    font-style: bold;
+    border: 1.5px solid #555555;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+    border: 1.5px solid white;
+    margin-bottom: 5px;
+}
